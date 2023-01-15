@@ -65,10 +65,7 @@ class Drawer(QtWidgets.QMainWindow):
         self.c=Canvas()
         self.setCentralWidget(self.c)
 
-    
 
-    
-    
 app = QtWidgets.QApplication(sys.argv)
 window= Drawer()
 window.show()
